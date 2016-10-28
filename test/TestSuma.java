@@ -18,5 +18,10 @@ public class TestSuma {
 
 	}
 	
+	@Test
+	public void testSuma3Num(){
+		assertEquals(12, Suma.sum(8,3,1));
+	}
+	
 	
 }
